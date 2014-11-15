@@ -187,6 +187,64 @@ p.attr-iphone5-portrait
 
 // ---------------------------------------------------------------------------------------------------------------------
 
+p.attr-iphone6
+{
+  @include iphone6
+  {
+    .true  { display: inline-block;}
+    .false { display: none;}
+  }
+}
+
+p.attr-iphone6-landscape
+{
+  @include iphone6(landscape)
+  {
+    .true  { display: inline-block;}
+    .false { display: none;}
+  }
+}
+
+p.attr-iphone6-portrait
+{
+  @include iphone6(portrait)
+  {
+    .true  { display: inline-block;}
+    .false { display: none;}
+  }
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+
+p.attr-iphone6p
+{
+  @include iphone6-plus
+  {
+    .true  { display: inline-block;}
+    .false { display: none;}
+  }
+}
+
+p.attr-iphone6p-landscape
+{
+  @include iphone6-plus(landscape)
+  {
+    .true  { display: inline-block;}
+    .false { display: none;}
+  }
+}
+
+p.attr-iphone6p-portrait
+{
+  @include iphone6-plus(portrait)
+  {
+    .true  { display: inline-block;}
+    .false { display: none;}
+  }
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+
 p.attr-ipad-landscape
 {
   @include ipad(landscape)
